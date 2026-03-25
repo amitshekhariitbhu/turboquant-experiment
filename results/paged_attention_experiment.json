@@ -1,0 +1,230 @@
+{
+  "512": {
+    "fp16": {
+      "insert_latency_ms": 0.8112920331768692,
+      "attention_latency_ms": 0.6017499836161733,
+      "total_latency_ms": 1.4130420167930424,
+      "memory_mb": 2.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 137.21845799591392,
+      "attention_latency_ms": 52.233625028748065,
+      "total_latency_ms": 189.452083024662,
+      "memory_mb": 0.28125,
+      "avg_cosine_sim": 0.7819619459131404,
+      "avg_kl_divergence": 2.990718173846497e-05,
+      "avg_max_attn_diff": 5.019788060654998e-05,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 143.0010839831084,
+      "attention_latency_ms": 52.84295801538974,
+      "total_latency_ms": 195.84404199849814,
+      "memory_mb": 0.40625,
+      "avg_cosine_sim": 0.9100179636697117,
+      "avg_kl_divergence": 9.94512644411959e-06,
+      "avg_max_attn_diff": 3.0280893033445087e-05,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 138.74374999431893,
+      "attention_latency_ms": 52.96129098860547,
+      "total_latency_ms": 191.7050409829244,
+      "memory_mb": 0.53125,
+      "avg_cosine_sim": 0.9700248640535252,
+      "avg_kl_divergence": 3.018914222411568e-06,
+      "avg_max_attn_diff": 1.4739871046220689e-05,
+      "memory_savings_pct": 73.4375
+    }
+  },
+  "1024": {
+    "fp16": {
+      "insert_latency_ms": 1.319750037509948,
+      "attention_latency_ms": 1.1833749595098197,
+      "total_latency_ms": 2.5031249970197678,
+      "memory_mb": 4.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 275.2024999936111,
+      "attention_latency_ms": 104.34787499252707,
+      "total_latency_ms": 379.5503749861382,
+      "memory_mb": 0.5625,
+      "avg_cosine_sim": 0.8050314187599072,
+      "avg_kl_divergence": 2.7419759893469932e-05,
+      "avg_max_attn_diff": 2.5093506377578485e-05,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 284.4911660067737,
+      "attention_latency_ms": 106.24349996214733,
+      "total_latency_ms": 390.73466596892104,
+      "memory_mb": 0.8125,
+      "avg_cosine_sim": 0.9170654789851553,
+      "avg_kl_divergence": 9.35574947866221e-06,
+      "avg_max_attn_diff": 1.4509470416144792e-05,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 271.6009169816971,
+      "attention_latency_ms": 105.11233296710998,
+      "total_latency_ms": 376.71324994880706,
+      "memory_mb": 1.0625,
+      "avg_cosine_sim": 0.9716688943702609,
+      "avg_kl_divergence": 2.66581191268545e-06,
+      "avg_max_attn_diff": 9.101380027568394e-06,
+      "memory_savings_pct": 73.4375
+    }
+  },
+  "2048": {
+    "fp16": {
+      "insert_latency_ms": 2.8540000203065574,
+      "attention_latency_ms": 3.02866700803861,
+      "total_latency_ms": 5.882667028345168,
+      "memory_mb": 8.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 546.0210410528816,
+      "attention_latency_ms": 212.7596249920316,
+      "total_latency_ms": 758.7806660449132,
+      "memory_mb": 1.125,
+      "avg_cosine_sim": 0.7967647584795851,
+      "avg_kl_divergence": 3.035799111863056e-05,
+      "avg_max_attn_diff": 1.3740347153973375e-05,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 573.304041987285,
+      "attention_latency_ms": 208.1740410067141,
+      "total_latency_ms": 781.4780829939991,
+      "memory_mb": 1.625,
+      "avg_cosine_sim": 0.9252720097491178,
+      "avg_kl_divergence": 9.94017568518126e-06,
+      "avg_max_attn_diff": 8.127725390603059e-06,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 544.8458330356516,
+      "attention_latency_ms": 211.2598330131732,
+      "total_latency_ms": 756.1056660488248,
+      "memory_mb": 2.125,
+      "avg_cosine_sim": 0.9705960909739818,
+      "avg_kl_divergence": 3.0426137326773004e-06,
+      "avg_max_attn_diff": 4.722432168522268e-06,
+      "memory_savings_pct": 73.4375
+    }
+  },
+  "4096": {
+    "fp16": {
+      "insert_latency_ms": 6.289375014603138,
+      "attention_latency_ms": 7.779832987580448,
+      "total_latency_ms": 14.069208002183586,
+      "memory_mb": 16.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 1073.8119169836864,
+      "attention_latency_ms": 423.92891697818413,
+      "total_latency_ms": 1497.7408339618705,
+      "memory_mb": 2.25,
+      "avg_cosine_sim": 0.7887757560687201,
+      "avg_kl_divergence": 2.9709701124357637e-05,
+      "avg_max_attn_diff": 6.814319579662463e-06,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 1139.6722079953179,
+      "attention_latency_ms": 420.1510000275448,
+      "total_latency_ms": 1559.8232080228627,
+      "memory_mb": 3.25,
+      "avg_cosine_sim": 0.9244456118247719,
+      "avg_kl_divergence": 9.730024362610879e-06,
+      "avg_max_attn_diff": 4.023422255881216e-06,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 1103.1436659977771,
+      "attention_latency_ms": 420.03020900301635,
+      "total_latency_ms": 1523.1738750007935,
+      "memory_mb": 4.25,
+      "avg_cosine_sim": 0.973235854727321,
+      "avg_kl_divergence": 2.988061876085892e-06,
+      "avg_max_attn_diff": 2.507387386388655e-06,
+      "memory_savings_pct": 73.4375
+    }
+  },
+  "8192": {
+    "fp16": {
+      "insert_latency_ms": 15.969374973792583,
+      "attention_latency_ms": 19.302833010442555,
+      "total_latency_ms": 35.27220798423514,
+      "memory_mb": 32.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 2221.530625014566,
+      "attention_latency_ms": 854.1283329832368,
+      "total_latency_ms": 3075.6589579978026,
+      "memory_mb": 4.5,
+      "avg_cosine_sim": 0.794801327356153,
+      "avg_kl_divergence": 2.4751308713715392e-05,
+      "avg_max_attn_diff": 3.4260237356317724e-06,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 2299.28945802385,
+      "attention_latency_ms": 841.6888340143487,
+      "total_latency_ms": 3140.9782920381986,
+      "memory_mb": 6.5,
+      "avg_cosine_sim": 0.9153190147942372,
+      "avg_kl_divergence": 8.160103465657245e-06,
+      "avg_max_attn_diff": 2.0805723820012324e-06,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 2199.021000007633,
+      "attention_latency_ms": 839.1917910194024,
+      "total_latency_ms": 3038.2127910270356,
+      "memory_mb": 8.5,
+      "avg_cosine_sim": 0.9700123116850838,
+      "avg_kl_divergence": 2.4755098136627137e-06,
+      "avg_max_attn_diff": 1.2256081280074704e-06,
+      "memory_savings_pct": 73.4375
+    }
+  },
+  "16384": {
+    "fp16": {
+      "insert_latency_ms": 35.584500001277775,
+      "attention_latency_ms": 31.807167048100382,
+      "total_latency_ms": 67.39166704937816,
+      "memory_mb": 64.0
+    },
+    "tq_2bit": {
+      "insert_latency_ms": 4393.222749989945,
+      "attention_latency_ms": 1686.536833003629,
+      "total_latency_ms": 6079.759582993574,
+      "memory_mb": 9.0,
+      "avg_cosine_sim": 0.8067223084499213,
+      "avg_kl_divergence": 2.9987564371409547e-05,
+      "avg_max_attn_diff": 1.9742610712713333e-06,
+      "memory_savings_pct": 85.9375
+    },
+    "tq_3bit": {
+      "insert_latency_ms": 5142.413083987776,
+      "attention_latency_ms": 1850.4582089954056,
+      "total_latency_ms": 6992.871292983182,
+      "memory_mb": 13.0,
+      "avg_cosine_sim": 0.9122501473928667,
+      "avg_kl_divergence": 9.940671036827102e-06,
+      "avg_max_attn_diff": 1.1518751953128286e-06,
+      "memory_savings_pct": 79.6875
+    },
+    "tq_4bit": {
+      "insert_latency_ms": 4499.094749975484,
+      "attention_latency_ms": 1720.6215410260484,
+      "total_latency_ms": 6219.716291001532,
+      "memory_mb": 17.0,
+      "avg_cosine_sim": 0.972193718652664,
+      "avg_kl_divergence": 3.0217804665026646e-06,
+      "avg_max_attn_diff": 6.803932510950554e-07,
+      "memory_savings_pct": 73.4375
+    }
+  }
+}
