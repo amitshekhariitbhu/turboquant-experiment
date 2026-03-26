@@ -10,6 +10,10 @@ A comparative experiment measuring the impact of TurboQuant compression on Paged
 
 ---
 
+I loved the maths behind it - so I wrote an article: [How Google Compressed LLM Memory by 6x](https://x.com/amitiitbhu/status/2036730283115045148)
+
+---
+
 ## Experiment 1: Memory Usage Comparison
 
 How much memory does the KV cache (Keys + Values) consume at each token length?
